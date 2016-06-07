@@ -4,16 +4,19 @@ define(function () {
 
     function table() {
         return {
-            displayTo: function (container) {
+            renderTo: function (container) {
 
             },
-            disabled: function () {
+            disable: function () {
 
             },
             enable: function () {
 
             },
             reload: function () {
+
+            },
+            on: function () {
 
             }
         }
